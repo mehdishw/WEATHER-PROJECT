@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>هواشناسی ایران</title>
+
+    <link
+        href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css"
+        rel="stylesheet"
+    >
+   <link rel="stylesheet" href="./style.css">
+
+</head>
+
+
+<body>
+
+
+    
+
+    <div class="weather-card">
+
+
+        
+
+        <div class="weather-header">
+
+            <h1>
+                <i>🌦️</i>
+                آب‌وهوا
+            </h1>
+
+            <p>
+                شهر مورد نظر را انتخاب کنید و وضعیت آب‌وهوا را ببینید
+            </p>
+
+        </div>
+
+
+        <div class="search-section">
+
+            <div class="search-box">
+
+
+                <select id="citySelect">
+
+                    <option value="Tehran">
+                        تهران
+                    </option>
+
+                    <option value="Mashhad">
+                        مشهد
+                    </option>
+
+                    <option value="Isfahan">
+                        اصفهان
+                    </option>
+
+                    <option value="Shiraz">
+                        شیراز
+                    </option>
+
+                    <option value="Tabriz">
+                        تبریز
+                    </option>
+
+                    <option value="Kish">
+                        کیش
+                    </option>
+
+                    <option value="Rasht">
+                        رشت
+                    </option>
+
+                    <option value="Yazd">
+                        یزد
+                    </option>
+
+                    <option value="Kerman">
+                        کرمان
+                    </option>
+
+                    <option value="Ahvaz">
+                        اهواز
+                    </option>
+
+                </select>
+
+
+                <button
+                    class="search-btn"
+                    id="searchBtn"
+                    type="button"
+                >
+                    🔍
+                    جستجو
+                </button>
+
+
+            </div>
+
+        </div>
+
+
+        <div
+            class="weather-display"
+            id="weatherDisplay"
+        >
+
+            <div class="weather-info">
+
+                <div class="loading">
+                    ⏳
+                    در حال دریافت اطلاعات...
+                </div>
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="./app.js"></script>
+
+
+</body>
+
+</html>
